@@ -47,5 +47,32 @@ Do not select or deploy monitoring tools until the initial requirements and inve
 ### Evidence Status
 Customer statements are simulated scenario information. No production logs, metrics, or technical test results have been collected.
 
-### Next Step
-Continue customer discovery and establish measurable monitoring requirements.
+
+
+## Day 1: Monitoring Requirements and Design
+
+### Customer Requirements
+- Notify the IT team within five minutes of an outage beginning.
+- Detect failures affecting customer service-request submissions.
+- Provide useful information for investigating failures.
+- Keep monitoring costs reasonable.
+
+### Proposed Monitoring Design
+- Check application health every 60 seconds.
+- Consider triggering a critical alert after three consecutive failed checks.
+- Monitor both application availability and critical business functionality.
+
+### Risks and Tradeoffs
+- Waiting for three failed checks reduces alert noise but delays detection.
+- A successful basic health check does not guarantee customers can submit requests.
+- Automated test submissions could create unnecessary work for employees.
+- Monitoring and notification delays must be tested against the five-minute requirement.
+
+### Decisions Still Pending
+- Confirm which application health checks are available.
+- Determine how to test service-request submissions safely.
+- Identify who receives alerts and through which channel.
+- Validate monitoring costs and alert delivery time.
+
+### Evidence Status
+These are proposed design decisions based on fictional customer discovery. No monitoring implementation or performance testing has been completed.
