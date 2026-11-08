@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Northstar HTTP Health Check Every Minute
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+AccuracySec=1s
+Unit=northstar-health.service
+
+[Install]
+WantedBy=timers.target

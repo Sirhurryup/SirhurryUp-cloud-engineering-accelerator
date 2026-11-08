@@ -1,0 +1,8 @@
+[Unit]
+Description=Northstar HTTP Health Check
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=ssm-user
+ExecStart=/usr/bin/python3 /home/ssm-user/northstar-monitoring/health_check.py
