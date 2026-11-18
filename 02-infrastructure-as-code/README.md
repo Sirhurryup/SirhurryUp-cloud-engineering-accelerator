@@ -1,4 +1,5 @@
 # Project 02 — Northstar Infrastructure as Code
+![Project 02 — Terraform-Powered AWS Infrastructure](images/project-02-cover.png)
 
 ## Business Problem
 
