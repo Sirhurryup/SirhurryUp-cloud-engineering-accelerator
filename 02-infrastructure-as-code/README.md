@@ -1,6 +1,14 @@
 # Project 02 — Northstar Infrastructure as Code
 ![Project 02 — Terraform-Powered AWS Infrastructure](images/project-02-cover.png)
 
+## Architecture Overview
+
+![Northstar AWS Infrastructure Architecture](images/project-02-architecture.png)
+
+## Engineering Verification
+
+![Project 02 Engineering Evidence](images/project-02-evidence.png)
+
 ## Business Problem
 
 Northstar needs a repeatable way to deploy and manage its AWS web infrastructure without relying on manual configuration through the AWS Management Console.
