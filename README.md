@@ -18,7 +18,7 @@ Each project emphasizes technical judgment, operational reliability, security, c
 | Week | Project | Primary Focus |
 |------|---------|---------------|
 | 01 | The Linux Server Nobody Was Watching | Linux, Python, Monitoring |
-| 02 | The Branch Office That Lost Connectivity | Networking, AWS VPC |
+| 02 | Northstar Infrastructure as Code | Terraform, AWS VPC, EC2, IAM, SSM, Reproducibility |
 | 03 | The Application That Could Not Afford Downtime | EC2, Load Balancing, Reliability |
 | 04 | The Cloud Migration Decision | Migration, Architecture, FinOps |
 | 05 | Infrastructure That Rebuilds Itself | Terraform, CI/CD |
@@ -46,7 +46,8 @@ Documentation is captured throughout implementation, including architecture deci
 ## Project Status
 
 - **Week 01:** In progress
-- **Weeks 02–08:** Planned
+- **Week 02:** Northstar Infrastructure as Code — Completed
+- **Weeks 03–08:** Planned
 
 ## About SirhurryUp Corporation
 
